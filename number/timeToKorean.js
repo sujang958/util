@@ -1,6 +1,6 @@
 function timeToKorean(number){
     var inputNumber  = number < 0 ? false : number
-    var unitWords    = ['초', '분', '시']
+    var unitWords    = ['초', '분', '시', '주', '월', '년']
     var splitUnit    = 60
     var splitCount   = unitWords.length
     var resultArray  = []
