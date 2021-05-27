@@ -1,3 +1,3 @@
 module.exports = {
-	setProperty : require('./setProperty')
+  setProperty : require('./setProperty')
 }

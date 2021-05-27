@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /workspace/util/package.json: Unexpected token } in JSON at position 603
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@sujang/util",
+    "version": "1.0.0",
+    "description": "a useful javascript functions",
+    "main": "index.js",
+    "scripts": {
+      "test": "npm run lint && npm run lint:fix",
+  	"lint": "eslint .",
+  	"lint:fix": "eslint . --fix"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sujang958/util.git"
+    },
+    "keywords": [
+      "function"
+    ],
+    "author": "sujang",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/sujang958/util/issues"
+    },
+    "homepage": "https://github.com/sujang958/util#readme",
+    "devDependencies": {
+          "eslint": "^7.26.0"
+      },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

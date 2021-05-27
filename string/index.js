@@ -1,3 +1,3 @@
 module.exports = {
-	generate : require('./generatRandomKey')
+  generate : require('./generatRandomKey')
 }
