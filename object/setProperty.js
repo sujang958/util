@@ -1,3 +1,3 @@
-function setProperty(object, key, value) {
-    object[key] = value;
+module.exports =  function setProperty(object, key, value) {
+  object[key] = value
 }

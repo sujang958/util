@@ -1,5 +1,5 @@
-function unitToComma(x) {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+module.exports = function unitToComma(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
 }
 /*
  * @example unitToComma(100000000)
