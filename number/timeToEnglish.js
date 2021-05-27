@@ -1,4 +1,4 @@
-function timeToEnglish(number){
+module.exports = function timeToEnglish(number){
     var inputNumber  = number < 0 ? false : number
     var unitWords    = ['sec', 'min', 'hours', 'day', 'week', 'month', 'year']
     var splitUnit    = 60

@@ -1,4 +1,4 @@
-function float2int(value) {
+module.exports =  function float2int(value) {
     return value | 0;
 }
 /*

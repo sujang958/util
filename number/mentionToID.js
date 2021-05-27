@@ -1,4 +1,4 @@
-function mentionToID(value) {
+module.exports = function mentionToID(value) {
   return value.replace(/[<@!]/g, '').replace('>', '');
 };
 /*

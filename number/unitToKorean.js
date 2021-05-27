@@ -1,4 +1,4 @@
-function numberToKorean(number){
+module.exports = function unitToKorean(number){
     var inputNumber  = number < 0 ? false : number
     var unitWords    = ['', '만', '억', '조', '경', '해', '자', '양', '구', '간', '정', '재', '극']
     var splitUnit    = 10000
@@ -22,6 +22,6 @@ function numberToKorean(number){
     return resultString.replace(/ $/, '')
 }
 /*
- * @example numberToKorean(100000000)
+ * @example unitToKorean(100000000)
  * @output 1억
  */

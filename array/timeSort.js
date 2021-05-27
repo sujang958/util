@@ -1,4 +1,4 @@
-function sortNumberArrTime(arr) {
+module.exports = function sortNumberArrTime(arr) {
     return new Promise((resolve, reject) => {
         let newArr = [];
         let sum = 0;
